@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.0.4 (Aug 09, 2022)
+* changeA
+* changeB
+* changeC
+* changeD
+
 ## 4.0.8 (Jul 19, 2022)
 * Fixed auto-resend issue in offline write
 
