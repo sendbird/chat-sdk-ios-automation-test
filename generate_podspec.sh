@@ -24,20 +24,20 @@ fi
 
 TEMPLATE="
 Pod::Spec.new do |s|
-  s.name         = 'SendbirdChatSDK'
+  s.name         = 'HelloWorldChatSDK'
   s.version      = \"$VERSION\"
-  s.summary      = 'Sendbird Chat iOS Framework'
-  s.description  = 'Messaging and Chat API for Mobile Apps and Websites'
+  s.summary      = 'Hello World summary'
+  s.description  = 'Hello World description'
   s.homepage     = 'https://sendbird.com'
   s.license      = { :type => 'Commercial', :file => 'SendbirdChatSDK/LICENSE.md' }
   s.authors      = {
-    'Minhyuk Kim' => 'minhyuk.kim@sendbird.com',
     'Sendbird' => 'sha.sdk_deployment@sendbird.com',
+    'Minhyuk Kim' => 'minhyuk.kim@sendbird.com',
     'Jed Gyeong' => 'jed.gyeong@sendbird.com',
     'Celine Moon' => 'celine.moon@sendbird.com',
     'Ernest Hong' => 'ernest.hong@sendbird.com'
   }
-  s.source       = { :http => \"https://github.com/sendbird/sendbird-chat-sdk-ios/releases/download/v$VERSION/SendbirdChatSDK.zip\", :sha1 => \"$SHA1\" }
+  s.source       = { :http => \"https://github.com/sendbird/chat-sdk-ios-automation-test/releases/download/v$VERSION/SendbirdChatSDK.zip\", :sha1 => \"$SHA1\" }
   s.requires_arc = true
   s.platform = :ios, '9.0'
   s.documentation_url = 'https://sendbird.com/docs/chat'
@@ -47,5 +47,4 @@ Pod::Spec.new do |s|
 end
 "
 
-echo -e "$TEMPLATE" > SendbirdChatSDK.podspec
-
+echo -e "$TEMPLATE" > HelloWorldChatSDK.podspec
