@@ -10,6 +10,11 @@
 2. second
 3. third
 
+## v0.0.8 (Sep 08, 2022)
+1. first
+2. second
+3. third
+
 ## v0.0.5 (Aug 10, 2022)
 * changeAAA
 * change2
