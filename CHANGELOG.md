@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.0 (Oct 04, 2022)
+1. first
+2. second
+3. third
+
 ## v0.0.10 (Sep 08, 2022)
 1. Test cocoapods
 2. second
