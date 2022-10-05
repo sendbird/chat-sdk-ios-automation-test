@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = 'HelloWorldChatSDK'
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = 'Hello World summary'
   s.description  = 'Hello World description'
   s.homepage     = 'https://sendbird.com'
@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
     'Celine Moon' => 'celine.moon@sendbird.com',
     'Ernest Hong' => 'ernest.hong@sendbird.com'
   }
-  s.source       = { :http => "https://github.com/sendbird/chat-sdk-ios-automation-test/releases/download/v0.1.1/SendbirdChatSDK.zip", :sha1 => "c3ad67bd6637dfc7753fb42f9a61dc0903ec7866" }
+  s.source       = { :http => "https://github.com/sendbird/chat-sdk-ios-automation-test/releases/download/v0.1.2/SendbirdChatSDK.zip", :sha1 => "dd4b82ba820595c1499a6460da7aa15f7b156fdb" }
   s.requires_arc = true
   s.platform = :ios, '9.0'
   s.documentation_url = 'https://sendbird.com/docs/chat'

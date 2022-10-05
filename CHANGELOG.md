@@ -1,5 +1,10 @@
 # Changelog
 
+## v0.1.2 (Oct 05, 2022)
+1. Test Cocoapods
+2. Test2
+3. Test3
+
 ## v0.1.1 (Oct 04, 2022)
 1. Test
 2. Test2
