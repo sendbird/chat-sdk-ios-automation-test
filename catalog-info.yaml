@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: chat-sdk-ios-automation-test
+  description: [Automation Test] Mock target repository for testing release automation
+spec:
+  type: library
+  lifecycle: experimental
+  owner: dep-client-platform
+  system: sendbird-internal-tools
+  
