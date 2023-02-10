@@ -3,6 +3,8 @@ kind: Component
 metadata:
   name: chat-sdk-ios-automation-test
   description: [Automation Test] Mock target repository for testing release automation
+  annotations:
+    github.com/project-slug: sendbird/chat-sdk-ios-automation-test
 spec:
   type: library
   lifecycle: experimental
